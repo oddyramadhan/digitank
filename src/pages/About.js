@@ -11,14 +11,12 @@ export default function About() {
         Programming Practicum. This app was created using React JS and an API.
       </p>
       <h2>About Author</h2>
-      <div className="container">
-        <img src="foto.jpg" alt="author pic" />
-        <p>
-          My name is Oddy Ramadhan with NIM 21120119140122 from group 14 of
-          Mobile Device Programming Practicum. I am a student of Computer
-          Engineering at Diponegoro University.
-        </p>
-      </div>
+      <img src="foto.jpg" alt="author pic" />
+      <p>
+        My name is Oddy Ramadhan with NIM 21120119140122 from group 14 of Mobile
+        Device Programming Practicum. I am a student of Computer Engineering at
+        Diponegoro University.
+      </p>
     </div>
   );
 }

@@ -1,15 +1,16 @@
 .about {
-  margin: auto;
+  margin: 2rem auto;
   padding: 0 1rem;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-direction: column;
   font-size: calc(10px + 2vmin);
   max-width: 768px;
-  padding-top: 14px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .about h1 {
-  margin: 0px;
+  margin-bottom: 0.5rem;
   color: black;
   text-align: center;
 }
@@ -20,25 +21,13 @@
 }
 
 .about p {
-  text-align: justify;
-}
-.container > p {
-  text-align: justify;
-  width: 500px;
-  height: 120px;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .about img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 50%;
   display: block;
   margin: 0 auto 0.5rem auto;
-  float: left;
-}
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
