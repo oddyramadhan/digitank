@@ -1,4 +1,4 @@
-.card-detail {
+.card-detail1 {
   height: 400px;
   width: 640px;
   flex-direction: row;
@@ -29,24 +29,26 @@ div p {
 }
 
 @media screen and (max-width: 1600px) {
-  .card-detail {
+  .card-detail1 {
     flex-direction: row;
   }
 }
 @media screen and (max-width: 1270px) {
-  .card-detail {
+  .card-detail1 {
     flex-direction: row;
   }
 }
 
 @media screen and (max-width: 950px) {
-  .card-detail {
+  .card-detail1 {
     flex-direction: row;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .card-detail {
+  .card-detail1 {
     flex-direction: column;
+    height: fit-content;
+    width: fit-content;
   }
 }

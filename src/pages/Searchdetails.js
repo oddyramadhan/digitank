@@ -28,7 +28,7 @@ export default function Searchdetails() {
       {data === undefined ? (
         "Loading..."
       ) : (
-        <div className="card-detail">
+        <div className="card-detail1">
           <div>
             <NavLink to="/search">
               <img src="/icon-40.png" alt=""></img>
